@@ -1,0 +1,70 @@
+/* Header spacing */
+
+.Navbar{
+    padding: 15px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.nav-item {
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+.nav-link{
+    background-color: white;
+    color: black !important;
+    border: 2px grey;
+    border-radius: 5px;
+    padding: 8px 16px !important;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-2px);
+}
+
+/* Keep buttons closer together */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+/* Center the logo and navbar items */
+.navbar-brand {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+/*Padding to nav bar img*/
+.navbar-brand img {
+    padding: 15px;
+   }
+
+.Navbar {
+    background-color: white !important;
+}
+
+
+/* NEED TO FIX THIS
+/*Sign in page styling
+.signin-container{
+    max-width: 500px;
+    margin: 250px auto;
+    padding: 30px;
+    border: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+} */
