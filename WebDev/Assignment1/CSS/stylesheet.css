@@ -1,0 +1,301 @@
+/*Main background colour*/
+Body {
+    background-color: #9CBFDF;
+}
+
+/*color for UL's*/
+ul {
+    background-color: #DA8C7E;
+    border-radius: 10px;
+}
+
+/*Formatting for the navigation buttons*/
+button {
+    background-color: #011627; /* button background colour*/
+    border: none ; /* Remove border on button */
+    color: #DA8C7E; /* text colour */
+    padding: 0px 30px; /* Add padding */
+    text-align: center; /* Center text */
+    cursor: pointer; /* Add cursor pointer when hovering over button */
+    border-radius: 15px; /* Rounded corners */
+    font-family: "Javanese Text", sans-serif; /* Set the font */
+    font-size: 26px; /* Adjust the font size */
+}
+
+/*Navigation bar formatting*/
+.NavigationBar {
+    text-align: center; /* Center the list items */
+}
+
+/* Display list items that make up navigation bar horizontally */
+.NavigationBar li {
+    display: inline;
+    margin-right: 50px;  /* Add spacing between list items */
+    text-align: center;
+
+}
+
+/* Active button - inverts the button colours of the button of the page you are currently on*/
+/*Uses the class=active to show pressed button*/
+.NavigationBar li a.active button {
+    background-color: #DA8C7E; /* Background colour */
+    color: #011627; /* Text colour */
+    border: 2px solid #011627; /* Add a border */
+    border-radius: 15px; /* Rounded corners */
+}
+
+/* Flex container used to have home page text and image side by side*/
+.HomeFlexContainer {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+/*adjusts placement of the image*/
+.HomeFlexContainer img {
+    margin-left: +300px;
+    margin-top: -160px;
+}
+
+/* styling for h1 headings */
+h1 {
+    font-size: 36px; /* Adjust the font size */
+    color: #3A4856; /* Set the text color */
+    font-family: "Javanese Text", sans-serif; /* Set the font */
+    text-align: center; /* Align the heading to the centre */
+}
+/*Styling for h3 headings*/
+h3 {
+    font-size: 20px; /* Adjust the font size */
+    color: #011627; /* Set the text color */
+    font-family: "Javanese Text", sans-serif; /* Set the font */
+    margin-left: 10px;
+    text-align: left;
+}
+
+/*Styling for h4 headings*/
+h4 {
+    font-size: 17px; /* Adjust the font size */
+    color: #011627; /* Set the text color */
+    font-family: "Javanese Text", sans-serif; /* Set the font */
+    text-align: center;
+    display: inline;
+}
+
+/*h5 & h6 only used in site map*/
+h5 {
+    font-size: 25px; /* Adjust the font size */
+    color: #011627;/* Set the text color */
+    font-family: "Arial", sans-serif; /* Set the font */
+    margin-top: 15px;/*Reduces spacing in the main site map*/
+    margin-bottom: 13px; /*Reduces spacing in the main site map*/
+    margin-left: 20px;
+}
+h6 {
+    font-size: 20px; /* Adjust the font size */
+    color: #011627;/* Set the text color */
+    font-family: "Arial", sans-serif; /* Set the font */
+    margin-top: 15px;/*Reduces spacing in the main site map*/
+    margin-bottom: 13px; /*Reduces spacing in the main site map*/
+    margin-left: 20px;
+
+}
+/* Styling for H7 - only used on store sub pages*/
+h7{
+    font-size: 16px; /* Adjust the font size */
+    color: #011627;/* Set the text color */
+    font-family: "Javanese Text", sans-serif;
+    margin-left: +15px;
+
+}
+/*Formatting for main content of EACH page*/
+.MainPageContent{
+    width: 600px; /* set a width for the wrapping container */
+    font-size: 17px; /* Adjust the font size */
+    color: #011627; /* Set the text color */
+    font-family: "Helvetica", sans-serif; /* Set the font */
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+/*colour coding of hyperlinks*/
+.Hyperlinks a {
+    color: blue; /* Change to the color of hyperlinks */
+    text-decoration: none; /* Remove underline */
+    font-family: "Javanese Text", sans-serif;
+}
+/* Change color of hover links */
+.Hyperlinks a:hover {
+    color: red;
+    font-family: "Javanese Text", sans-serif;
+}
+
+/* Color for visited links */
+.Hyperlinks a:visited {
+    color: purple;
+    font-family: "Javanese Text", sans-serif;
+}
+
+/*Formatting for the images on the notable players page*/
+.BassistImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns: equal width, image centered */
+    gap: 20px; /* Adjust the gap between images */
+}
+.BassistImages img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the images horizontally */
+    margin-top: -35px; /* Reduces margin to bring names and images closer*/
+    border-radius: 15px; /* Rounded corners */
+}
+/*Formatting for Bassist names on the notable player page*/
+.BassistNames {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; /* Three columns with equal width */
+    justify-content: space-between; /* Spread columns evenly */
+    margin-top: -10px;
+}
+
+/*Formatting for the images on the Store page */
+.StorePageImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three columns: equal width, image centered */
+    gap: 20px; /* Adjust the gap between images */
+}
+/*formatting of images on the stores page*/
+.StorePageImages img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the images horizontally */
+    margin-top: -35px; /* Reduces margin to bring names and images closer*/
+    border-radius: 15px; /* Rounded corners */
+}
+/*Formatting of titles on store page, titles sit above images*/
+.StorePageTitles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; /* Three columns with equal width */
+    justify-content: space-between; /* Spread columns evenly */
+    margin-top: -10px;
+}
+
+/*Formatting of links to other store pages - appears on each sub page of store page*/
+#StoreItemPageLinks{
+    text-align: center;
+}
+
+/*Formats all images of products to the below width X height*/
+.ProductImage{
+    width: 150px;
+    height: 150px;
+}
+/*formatting for Bass spec list on the bass store page*/
+.BassSpecs{
+    padding-top: -0px;
+    padding-left: 10px;
+}
+
+/* Style and center the site map container */
+.SiteMapContainer {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Add margin below each site map item */
+.sitemap li {
+    margin-bottom: 10px;
+}
+
+/* Style site map hyperlinks */
+.sitemap a {
+    text-decoration: none;
+    color: #3A4856;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.20s ease; /*Transition speed for change of background colour*/
+    margin-left: 5px;
+}
+
+/* Change background color on hyperlink hover */
+.sitemap a:hover {
+    background-color: white;
+}
+/*formatting of image used on the Bassist Bio page*/
+.BioImage  {
+    float: left; /* Float the element to the left */
+    padding: 30px; /* Add 30 pixels of padding to all sides */
+    margin-bottom: 20px;
+}
+/*Styling of image*/
+.BioImage img{
+    border-radius: 15px;
+    margin-left: -15px;
+}
+/*Styling of text in Bassti bio page*/
+.BioText {
+    display: inline-block;
+    width: 350px;
+    padding-top: 10px;
+    margin-left: 20px; /* Adjust the margin-left value to move the text more to the left */
+}
+/*Adds margin to the video under Bassist bio page */
+.BioVideo {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*Styling for the contact us container*/
+.ContactUsContainer {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #DA8C7E;
+    padding: 2px;
+    border-radius: 15px;
+    margin-top: -50px;
+
+
+/*Formatting for H3 in contact us container*/
+}
+.ContactUsContainer h3{
+    text-align: center;
+
+}
+
+/*Centres the image on the about page */
+#AboutPageImg {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* FORM STYLING */
+.fieldset{
+    background-color: #DA8C7E;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: #011627;
+    border-radius: 15px;
+}
+
+.legend {
+    background-color: #9CBFDF; /* background colour*/
+    border-radius: 15px;
+    border-color: #011627;
+    border-style: solid;
+    color: #011627; /* text colour */
+    border-width: 2px;
+    font-family: "Javanese Text", sans-serif;
+    font-size: 20px;
+    padding: 5px 10px; /* Adjust padding as needed */
+
+}
+
+label {
+    display: inline-block;
+    width: 120px; /* Set a fixed width for labels for alignment */
+    margin-right: 10px; /* Add margin to the right of labels */
+    margin-bottom: 15px; /* Add margin between form groups */
+}
+
+.radio-group{
+    margin-top: 5px;
+}

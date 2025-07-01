@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <style> @import "CSS/stylesheet.css";</style>
+</head>
+<body>
+
+<!hyperlinked buttons in navigation bar to allow navigation to the rest of the site, used on all pages to allow easy navigation>
+<ul class="NavigationBar">
+    <li><a href="Index.html"><button>Home</button></a></li>
+    <li><a href="Notable_Players.html"><button>Notable Players</button></a></li>
+    <li><a href="About.html"><button>About</button></a></li>
+    <li><a href="Store.html"><button>Store</button></a></li>
+    <li><a href="Contact_Us.html" class="active"><button>Contact Us</button></a></li>
+    <li><a href="SiteMap.html"><button>Site Map</button></a></li>
+</ul>
+
+<h1>Contact us</h1>
+
+<br>
+
+<div class="ContactUsContainer">
+    <h3>Get in touch!</h3>
+    <br>
+    <ul>
+        <li>Email: <a href="mailto:B00158877@Mytudublin.ie">B00158877@mytudublin.ie</a></li>
+        <li><a href="#bottom">Address:</a>
+            <ul>
+                <li>Blanchardstown Rd N,</li>
+                <li>Blanchardstown,</li>
+                <li>Dublin,</li>
+                <li>D15 YV78</li>
+            </ul>
+        </li>
+        <li>Phone: +353 1 220 5000</li>
+    </ul>
+</div>
+<br>
+<hr>
+
+
+<h1>Form</h1>
+
+<fieldset class="fieldset">
+    <legend class="legend">Your details</legend>
+    <form action="#">
+        <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter first name">
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter last name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:*</label>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter phone number">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+        </div>
+</fieldset>
+
+
+<fieldset class="fieldset">
+    <legend class="legend">Stay up to date</legend>
+    <div class="form-group">
+        <label for="Updates">Would you like be kept up to date with updates on the site?</label>
+        <input type="checkbox" id="updates" name="updates">
+        <label for="updates">Yes, I would like to receive updates.</label>
+
+    </div>
+</fieldset>
+
+<fieldset class="fieldset">
+    <legend class="legend">Contact</legend>
+    <div class="form-group">
+        Please contact me by:
+        <div class="radio-groups">
+            <div class="radio-group">
+                <label for="emailContact"><input type="radio" id="emailContact" name="contact" value="email" required> Email</label>
+                <label for="phoneContact"><input type="radio" id="phoneContact" name="contact" value="phone"> Phone</label>
+                <label for="textContact"><input type="radio" id="textContact" name="contact" value="text"> Text</label>
+            </div>
+            <div class="radio-group">
+                <label for="facebookContact"><input type="radio" id="facebookContact" name="contact" value="facebook"> Facebook</label>
+                <label for="twitterContact"><input type="radio" id="twitterContact" name="contact" value="twitter"> Twitter</label>
+                <label for="linkedinContact"><input type="radio" id="linkedinContact" name="contact" value="linkedin"> Linkedin</label>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+<fieldset class="fieldset">
+    <legend class="legend">How did you hear about us?</legend>
+    <div class="form-group">
+        <label for="hearAboutUs">How did you hear about us?</label>
+        <select id="hearAboutUs" name="hearAboutUs">
+            <option value="searchEngine">Search Engine</option>
+            <option value="tv">TV</option>
+            <option value="Radio">Radio</option>
+            <option value="wordOfMouth">Word of Mouth</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+</fieldset>
+
+<fieldset class="fieldset">
+    <legend class="legend">Rate Us</legend>
+    <div class="form-group">
+        <label for="rating">Rate Us (Use the slider to select):</label>
+        <input type="range" id="rating" name="rating" min="1" max="5">
+    </div>
+</fieldset>
+
+<fieldset class="fieldset">
+    <legend class="legend">Comments</legend>
+    <div class="form-group">
+        <label for="comments">Enter Comments Here:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+    </div>
+</fieldset>
+
+<fieldset class="fieldset">
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </div>
+</fieldset>
+</form>
+<hr>
+
+<div id="bottom">
+<iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19029.428467694845!2d-6.387191490429688!3d53.402689728250344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486712badd7cd6b1%3A0x9817ed5716c08592!2sTU%20Dublin%20-%20Blanchardstown%20Campus!5e0!3m2!1sen!2sie!4v1709913105981!5m2!1sen!2sie"
+        width="100%" height="450" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+
+<footer>
+    <hr>
+    <small>
+        Last updated: 03/03/2024
+        <br>Copyright&#169; Robert Leniston
+    </small>
+</footer>
+</body>
+</html>
