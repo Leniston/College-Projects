@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Grooming Services - Furry Friends</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="Images/Logo.png" alt="Furry Friends Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto justify-content-evenly w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-paw"></i> Our Services <i class="fas fa-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li>
+                            <a class="dropdown-item" href="Boarding.html">
+                                <i class="fas fa-home"></i> Boarding & Day care
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="Grooming.html">
+                                <i class="fas fa-cut"></i> Pet Grooming
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="Training.html">
+                                <i class="fas fa-certificate"></i> Pet Training
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="Booking.html">
+                        <i class="fas fa-calendar-alt"></i> Book Now
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="Contact.html">
+                        <i class="fas fa-envelope"></i> Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="AboutUs.html">
+                        <i class="fas fa-info-circle"></i> About Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- end of nav bar -->
+
+<!-- main body of content -->
+<!-- Training Programs Section -->
+<section class="package-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Training Programs</h2>
+        <div class="row g-4">
+            <!-- Dog Training -->
+            <div class="col-md-6">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Dog Training Services</h3>
+                    </div>
+                    <div class="package-body">
+                        <div class="price-option">
+                            <h4>Individual Session</h4>
+                            <div class="price">€50</div>
+                            <p class="price-detail">One-on-one training</p>
+                        </div>
+                        <div class="price-option">
+                            <h4>Group Classes</h4>
+                            <div class="price">€35</div>
+                            <p class="price-detail">Per session</p>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Basic obedience training</li>
+                            <li><i class="fas fa-check"></i> Behavior modification</li>
+                            <li><i class="fas fa-check"></i> Socialization with other dogs</li>
+                            <li><i class="fas fa-check"></i> Rehabilitation programs</li>
+                            <li><i class="fas fa-check"></i> Puppy training classes</li>
+                        </ul>
+                        <a href="Booking.html" class="btn custom-btn w-100">Book Dog Training</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cat Training -->
+            <div class="col-md-6">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Cat Training Services</h3>
+                    </div>
+                    <div class="package-body">
+                        <div class="price-option">
+                            <h4>Basic Training</h4>
+                            <div class="price">€45</div>
+                            <p class="price-detail">Per session</p>
+                        </div>
+                        <div class="price-option">
+                            <h4>Behavior Consultation</h4>
+                            <div class="price">€60</div>
+                            <p class="price-detail">Specialized session</p>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Litter box training</li>
+                            <li><i class="fas fa-check"></i> Scratching post training</li>
+                            <li><i class="fas fa-check"></i> Social behavior improvement</li>
+                            <li><i class="fas fa-check"></i> Anxiety management</li>
+                            <li><i class="fas fa-check"></i> Interactive play sessions</li>
+                        </ul>
+                        <a href="Booking.html" class="btn custom-btn w-100">Book Cat Training</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Specialized Services Section -->
+<section class="specialized-services bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Specialized Training Services</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-heart fa-3x mb-3"></i>
+                    <h4>Rehabilitation Training</h4>
+                    <p>Specialized programs for pets from traumatic backgrounds</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-users fa-3x mb-3"></i>
+                    <h4>Socialization Classes</h4>
+                    <p>Group sessions for proper social skill development</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-home fa-3x mb-3"></i>
+                    <h4>Home Training</h4>
+                    <p>Personalized training in your pet's environment</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Success Stories Section -->
+<section class="success-stories py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Training Success Stories</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="success-card">
+                    <div class="before-after">
+                        <img src="images/before1.jpg" alt="Before Training" class="before-img">
+                        <img src="images/after1.jpg" alt="After Training" class="after-img">
+                    </div>
+                    <div class="success-content">
+                        <h4>Max's Journey</h4>
+                        <p>From anxious pup to confident companion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="success-card">
+                    <div class="before-after">
+                        <img src="images/before2.jpg" alt="Before Training" class="before-img">
+                        <img src="images/after2.jpg" alt="After Training" class="after-img">
+                    </div>
+                    <div class="success-content">
+                        <h4>Luna's Story</h4>
+                        <p>Overcoming socialization challenges</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- c2a Section -->
+<section class="cta-section py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Ready to Pamper Your Pet?</h2>
+        <p class="mb-4">Book a grooming session today or contact us for more information</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="Booking.html" class="custom-btn heartbeat">Book Now</a>
+            <a href="Contact.html" class="contact-btn">Contact Us</a>
+        </div>
+    </div>
+</section>
+<!-- end of main body -->
+
+<!-- Footer -->
+<footer class="footer  text-light py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Dynamic Breadcrumbs -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="Index.html">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Training</li>
+        </ol>
+      </nav>
+  
+      <!-- Contact Info -->
+      <div class="text-center">
+        <p class="text-white mb-1">Opening Hours: Mon–Fri: 7 AM – 7 PM | Sat–Sun: 9 AM – 5 PM</p>
+        <p class="text-white mb-1">Email: info@furryfriends.com | Phone: +123 456 7890</p>
+        <p class="text-white mb-0">&copy; 2024 Furry Friends Training and Care</p>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div class="social-media text-end">
+        <p class="footerText mb-1">Follow us on social media!</p>
+        <a href="https://www.facebook.com" target="_blank" class="social-icon me-2"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+            <!-- Back to Top Button -->
+<button 
+type="button" 
+class="btn btn-floating btn-lg" 
+id="btn-back-to-top"
+aria-label="Back to top"
+>
+<i class="fas fa-arrow-up"></i>
+</button>
+  </footer>
+<!-- Bootstrap JS CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="Script.js"></script>
+</body>
+</html>

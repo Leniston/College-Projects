@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furry Friends</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container">
+      <a class="navbar-brand" href="Index.html">
+          <img src="Images/Logo.png" alt="Furry Friends Logo" height="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto justify-content-evenly w-100">
+              <li class="nav-item">
+                  <a class="nav-link" href="Index.html">
+                      <i class="fas fa-home"></i> Home
+                  </a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-paw"></i> Our Services <i class="fas fa-chevron-down ms-1"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li>
+                          <a class="dropdown-item" href="Boarding.html">
+                              <i class="fas fa-home"></i> Boarding & Day care
+                          </a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="Grooming.html">
+                              <i class="fas fa-cut"></i> Pet Grooming
+                          </a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="Training.html">
+                              <i class="fas fa-certificate"></i> Pet Training
+                          </a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link nav-btn" href="Booking.html">
+                      <i class="fas fa-calendar-alt"></i> Book Now
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link nav-btn" href="Contact.html">
+                      <i class="fas fa-envelope"></i> Contact Us
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link nav-btn" href="AboutUs.html">
+                      <i class="fas fa-info-circle"></i> About Us
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <img src="images/Banner.jpg" alt="Dog Hotel Banner" class="hero-image">
+        <div class="hero-content">
+            <h1 class="tracking-in-expand">A home away from home</h1>
+            <a href="Booking.html" class="hero_btn heartbeat btn-lg">Book Boarding Now</a>
+        </div>
+    </section>
+<!-- About Us Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">About Us</h2>
+    <p class="text-center">
+        At Furry Friends, we understand the challenges of balancing work, life, and pet care. Our comprehensive services are designed for busy pet parents, offering flexible scheduling, transport solutions, and round-the-clock support. With 25 years of experience and over 1,200 five-star reviews, we're County Wicklow's most trusted pet care provider.
+        <a href="AboutUs.html" class="text-primary">Learn more about us.</a>
+    </p>
+</div>
+<!-- What We Offer Section -->
+<section class="offer-section">
+    <div class="container">
+        <h2 class="mb-5">What We Offer</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-4 col-lg-3">
+                <a href="Training.html" class="text-decoration-none">
+                    <div class="offer-item">
+                        <img src="images/index1.jpg" alt="Training">
+                        <div class="offer-content">
+                            <h4>Expert Training</h4>
+                            <p>Our skilled trainers specialize in teaching good manners and behavior for your pets.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+  
+            <div class="col-md-4 col-lg-3">
+                <a href="Boarding.html" class="text-decoration-none">
+                    <div class="offer-item">
+                        <img src="images/index2.jpg" alt="Day Care">
+                        <div class="offer-content">
+                            <h4>Day Care & Boarding</h4>
+                            <p>Safe and engaging day care facilities to keep your pets entertained and happy.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+  
+            <div class="col-md-4 col-lg-3">
+                <a href="Grooming.html" class="text-decoration-none">
+                    <div class="offer-item">
+                        <img src="images/index3.jpg" alt="Grooming">
+                        <div class="offer-content">
+                            <h4>Professional Grooming</h4>
+                            <p>Top-notch grooming services to keep your furry friends looking and feeling great.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+  </section>
+    <!-- quick features / Paint Point Features Section -->
+    <section class="quick-features py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-clock fa-3x mb-3"></i>
+                        <h4>Flexible Hours</h4>
+                        <p>Open 7AM-7PM Daily with 24/7 boarding care</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-car fa-3x mb-3"></i>
+                        <h4>Free Transport</h4>
+                        <p>For those with busy schedules, or if help is just needed!</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <i class="fas fa-hand-holding-heart fa-3x mb-3"></i>
+                        <h4>Comprehensive Care</h4>
+                        <p>Specialized care for pets with additional needs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Gallery Section -->
+<section id="GallerySection">
+  <h2 class="text-center mb-4">Our Furry Friends</h2>
+  <div class="row g-4">
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery1.jfif" alt="Gallery Image 1" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery2.jfif" alt="Gallery Image 2" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery3.jpg" alt="Gallery Image 3" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery4.jpg" alt="Gallery Image 4" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery5.jpg" alt="Gallery Image 5" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="gallery-item">
+              <img src="images/gallery6.jpg" alt="Gallery Image 6" class="img-fluid">
+              <div class="gallery-overlay"></div>
+          </div>
+      </div>
+  </div>
+</section>
+
+    <!--  c2a  Section -->
+    <section class="cta-section py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to give your pet the best?</h2>
+            <a href="Booking.html" class="btn custom-btn heartbeat btn-lg">Book Your Visit Now</a>
+        </div>
+    </section>
+
+<br>
+<br>
+
+    <!-- Footer -->
+    <footer class="footer text-light py-4">
+        <div class="container d-flex justify-content-between align-items-center">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="Index.html">Home</a></li>
+                </ol>
+            </nav>
+
+            <div class="text-center">
+                <p class="text-white mb-1">Opening Hours: Mon–Fri: 7 AM – 7 PM | Sat–Sun: 9 AM – 5 PM</p>
+                <p class="text-white mb-1">Email: info@furryfriends.com | Phone: +123 456 7890</p>
+                <p class="text-white mb-0">&copy; 2024 Furry Friends Training and Care</p>
+            </div>
+
+            <div class="social-media text-end">
+                <p class="footerText mb-1">Follow us on social media!</p>
+                <a href="https://www.facebook.com" target="_blank" class="social-icon me-2"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- Back to Top Button -->
+<button 
+type="button" 
+class="btn btn-floating btn-lg" 
+id="btn-back-to-top"
+aria-label="Back to top"
+>
+<i class="fas fa-arrow-up"></i>
+</button>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>

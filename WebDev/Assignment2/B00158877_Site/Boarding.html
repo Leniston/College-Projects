@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Grooming Services - Furry Friends</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="Index.html">
+            <img src="Images/Logo.png" alt="Furry Friends Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto justify-content-evenly w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="Index.html">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-paw"></i> Our Services <i class="fas fa-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                        <li>
+                            <a class="dropdown-item" href="Boarding.html">
+                                <i class="fas fa-home"></i> Boarding & Day care
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="Grooming.html">
+                                <i class="fas fa-cut"></i> Pet Grooming
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="Training.html">
+                                <i class="fas fa-certificate"></i> Pet Training
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="Booking.html">
+                        <i class="fas fa-calendar-alt"></i> Book Now
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="Contact.html">
+                        <i class="fas fa-envelope"></i> Contact Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-btn" href="AboutUs.html">
+                        <i class="fas fa-info-circle"></i> About Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="services-overview py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Boarding and Day Care Packages</h2>
+        <div class="row g-4">
+            <!-- Day Care Services -->
+            <div class="col-md-6">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Day Care Services</h3>
+                    </div>
+                    <div class="package-body">
+                        <div class="price-option">
+                            <h4>Half Day</h4>
+                            <div class="price">€25</div>
+                            <p class="price-detail">Perfect for shorter stays</p>
+                        </div>
+                        <div class="price-option">
+                            <h4>Full Day</h4>
+                            <div class="price">€50</div>
+                            <p class="price-detail">Complete day of care and activities</p>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Morning feeding</li>
+                            <li><i class="fas fa-check"></i> Access to 2-acre enclosed field</li>
+                            <li><i class="fas fa-check"></i> Afternoon walks</li>
+                            <li><i class="fas fa-check"></i> Lunch provided</li>
+                            <li><i class="fas fa-check"></i> Indoor play area access</li>
+                            <li><i class="fas fa-check"></i> Heated pool facilities</li>
+                        </ul>
+                        <a href="Booking.html" class="btn custom-btn w-100">Book Day Care</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Boarding Services -->
+            <div class="col-md-6">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Boarding Services</h3>
+                    </div>
+                    <div class="package-body">
+                        <div class="price-option">
+                            <h4>1-3 Nights</h4>
+                            <div class="price">€55</div>
+                            <p class="price-detail">Per night</p>
+                        </div>
+                        <div class="price-option">
+                            <h4>3-5 Nights</h4>
+                            <div class="price">€48</div>
+                            <p class="price-detail">Per night</p>
+                        </div>
+                        <div class="price-option">
+                            <h4>5+ Nights</h4>
+                            <div class="price">€42</div>
+                            <p class="price-detail">Per night</p>
+                        </div>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check"></i> Individual comfortable cages</li>
+                            <li><i class="fas fa-check"></i> Bed and blankets provided</li>
+                            <li><i class="fas fa-check"></i> Food and water bowls</li>
+                            <li><i class="fas fa-check"></i> Toys included</li>
+                            <li><i class="fas fa-check"></i> Climate-controlled rooms</li>
+                            <li><i class="fas fa-check"></i> Quiet rooms for anxious pets</li>
+                        </ul>
+                        <a href="Booking.html" class="btn custom-btn w-100">Book Boarding</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Facility -->
+<section class="facility-features bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Facilities</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-home feature-icon"></i>
+                    <h3>Comfortable Rooms</h3>
+                    <p>5 separate fully-equipped rooms with individual cages, complete with beds, blankets, and toys</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-temperature-low feature-icon"></i>
+                    <h3>Climate Control</h3>
+                    <p>Fully ventilated rooms maintained at optimal temperature year-round for maximum comfort</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-card">
+                    <i class="fas fa-swimming-pool feature-icon"></i>
+                    <h3>Indoor Pool</h3>
+                    <p>Heated indoor pool available for supervised swimming sessions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Transport -->
+<section class="transport-service py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/transport.jpg" alt="Pet Transport Service" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Pick-up & Drop-off Service</h2>
+                <p>We offer convenient transport services for both daycare and boarding clients. Our reliable team will collect your pet and deliver them safely back home.</p>
+                <p>This service is particularly beneficial for:</p>
+                <ul>
+                    <li>Busy professionals</li>
+                    <li>Senior pet owners</li>
+                    <li>Those without transportation</li>
+                    <li>Anyone seeking added convenience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- requirements section -->
+<section class="requirements bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Requirements</h2>
+        <div class="requirement-grid">
+            <div class="requirement-item">
+                <i class="fas fa-syringe"></i>
+                <h3>Vaccinations</h3>
+                <p>All pets must be fully vaccinated</p>
+            </div>
+            <div class="requirement-item">
+                <i class="fas fa-microchip"></i>
+                <h3>Microchipped</h3>
+                <p>Microchipping required for identification</p>
+            </div>
+            <div class="requirement-item">
+                <i class="fas fa-cut"></i>
+                <h3>Spayed/Neutered</h3>
+                <p>All pets must be spayed or neutered</p>
+            </div>
+            <div class="requirement-item">
+                <i class="fas fa-bug"></i>
+                <h3>Treatments</h3>
+                <p>Current flea and worm treatments required</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- c2a Section -->
+<section class="cta-section py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Ready to Pamper Your Pet?</h2>
+        <p class="mb-4">Book a grooming session today or contact us for more information</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="Booking.html" class="custom-btn heartbeat">Book Now</a>
+            <a href="Contact.html" class="contact-btn">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer  text-light py-4">
+    <div class="container d-flex justify-content-between align-items-center">
+      <!-- Dynamic Breadcrumbs -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="Index.html">Home</a></li>
+          <li class="breadcrumb-item active text-white" aria-current="page">Boarding</li>
+        </ol>
+      </nav>
+  
+      <!-- Contact Info -->
+      <div class="text-center">
+        <p class="text-white mb-1">Opening Hours: Mon–Fri: 7 AM – 7 PM | Sat–Sun: 9 AM – 5 PM</p>
+        <p class="text-white mb-1">Email: info@furryfriends.com | Phone: +123 456 7890</p>
+        <p class="text-white mb-0">&copy; 2024 Furry Friends Training and Care</p>
+      </div>
+  
+      <!-- Social Media Section -->
+      <div class="social-media text-end">
+        <p class="footerText mb-1">Follow us on social media!</p>
+        <a href="https://www.facebook.com" target="_blank" class="social-icon me-2"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com" target="_blank" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank" class="social-icon"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+          <!-- Back to Top Button -->
+<button 
+type="button" 
+class="btn btn-floating btn-lg" 
+id="btn-back-to-top"
+aria-label="Back to top"
+>
+<i class="fas fa-arrow-up"></i>
+</button>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Script.js"></script>
+</body>
+
+</html>
