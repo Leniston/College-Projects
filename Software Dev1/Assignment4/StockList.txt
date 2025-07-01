@@ -1,0 +1,7 @@
+Hammer, 12.99
+Screwdriver, 6.49
+Pliers, 8.99
+Wrench, 10.99
+Tape, 5.99
+Drill, 39.99
+Saw, 29.99
